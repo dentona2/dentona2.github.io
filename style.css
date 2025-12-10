@@ -49,7 +49,7 @@ body {
   gap: 0.6rem;
 }
 .logo-image {
-  height: 32px;      /* adjust if you want it bigger/smaller */
+  height: 20px;      /* adjust if you want it bigger/smaller */
   width: auto;
   display: block;
 }
