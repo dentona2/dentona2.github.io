@@ -3,257 +3,785 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ADFIXIT22 LLC | Tech Repair & Digital Agency</title>
-  <meta name="description" content="ADFIXIT22 LLC in Phoenix, AZ. Device repair, home & office tech installs, and digital services for small businesses." />
+
+  <title>ADFIXIT22 LLC | Tech Support, Training & Business IT</title>
+
+  <meta
+    name="description"
+    content="ADFIXIT22 LLC provides computer repair, technology training, business IT support, web design, cybersecurity, Microsoft 365, Salesforce support and home technology services."
+  />
+
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" />
 </head>
+
 <body>
-  <!-- HEADER & NAV -->
+
+  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-    <div class="logo">
-  <img src="logo.png" alt="ADFIXIT22 LLC logo" class="logo-image">
-</div>
 
+      <a href="#home" class="logo">
+        <img
+          src="logo.png"
+          alt="ADFIXIT22 LLC logo"
+          class="logo-image"
+        />
+      </a>
 
-      <nav class="nav">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="nav" id="mainNav">
         <a href="#services">Services</a>
+        <a href="#training">Training</a>
+        <a href="#business">Business IT</a>
         <a href="#about">About</a>
-        <a href="#portfolio">Work</a>
         <a href="#contact">Contact</a>
         <a href="tel:13236308565" class="nav-cta">Call Now</a>
       </nav>
+
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
+
+  <!-- HERO -->
+  <section id="home" class="hero">
     <div class="container hero-inner">
+
       <div class="hero-text">
-        <h1>Tech repair, clean installs, and digital designs.</h1>
+
+        <p class="eyebrow">ADFIXIT22 LLC</p>
+
+        <h1>
+          Technology Made
+          <span>Simple.</span>
+        </h1>
+
         <p>
-          ADFIXIT22 LLC helps families and small businesses in Phoenix keep their
-          devices running, their spaces connected, and their brand looking sharp
-          all with fast service and modern design.
+          Computer repair, personalized technology training,
+          business IT support, cybersecurity, websites and
+          home technology solutions all from one trusted source.
         </p>
+
         <div class="hero-actions">
-          <a href="#contact" class="btn primary">Book a Repair or Install</a>
-          <a href="#services" class="btn ghost">View Digital Services</a>
+
+          <a href="tel:13236308565" class="btn primary">
+            Schedule Service
+          </a>
+
+          <a href="#training" class="btn ghost">
+            View Training
+          </a>
+
         </div>
+
         <div class="hero-badges">
-          <span>📍 Phoenix, AZ</span>
-          <span>📱 Phone, tablet & computer repair</span>
-          <span>✨ Logos, websites & social content</span>
+          <span>💻 Computer & Device Support</span>
+          <span>🎓 One-on-One Training</span>
+          <span>🏢 Business IT Solutions</span>
         </div>
+
       </div>
 
+
       <div class="hero-card">
-        <h2>Need help fast?</h2>
-        <p>Text or call and tell me what you need. I’ll reply with options and pricing.</p>
+
+        <p class="eyebrow">Need Tech Help?</p>
+
+        <h2>Your Personal Technology Partner</h2>
+
+        <p>
+          Tell us what you need help with and we'll recommend
+          the best service or training option.
+        </p>
+
         <div class="hero-contact">
-          <a href="tel:15202615463">📞 323-630-8565</a>
-          <a href="mailto:dentona2@hotmail.com">📧 dentona2@hotmail.com</a>
-          <a href="https://instagram.com/adfixit22" target="_blank" rel="noopener">📸 @adfixit22</a>
+
+          <a href="tel:13236308565">
+            📞 (323) 630-8565
+          </a>
+
+          <a href="mailto:support@adfixit22.com">
+            📧 support@adfixit22.com
+          </a>
+
+          <a
+            href="https://instagram.com/adfixit22"
+            target="_blank"
+            rel="noopener"
+          >
+            📸 @adfixit22
+          </a>
+
         </div>
-        <p class="hero-note">Evening & weekend appointments available.</p>
+
+        <p class="hero-note">
+          Remote and on-site service available.
+        </p>
+
       </div>
+
     </div>
   </section>
+
+
+  <!-- QUICK VALUE -->
+  <section class="quick-value">
+    <div class="container quick-value-grid">
+
+      <div>
+        <strong>PERSONAL</strong>
+        <span>One-on-One Support</span>
+      </div>
+
+      <div>
+        <strong>FLEXIBLE</strong>
+        <span>Remote or On-Site</span>
+      </div>
+
+      <div>
+        <strong>PROFESSIONAL</strong>
+        <span>Home & Business</span>
+      </div>
+
+      <div>
+        <strong>SIMPLE</strong>
+        <span>No Confusing Tech Talk</span>
+      </div>
+
+    </div>
+  </section>
+
 
   <!-- SERVICES -->
   <section id="services" class="section">
+
     <div class="container">
-      <h2 class="section-title">What ADFIXIT22 Can Do for You</h2>
+
+      <p class="eyebrow">Our Services</p>
+
+      <h2 class="section-title">
+        Complete Technology Solutions
+      </h2>
+
       <p class="section-subtitle">
-        On-site tech help + digital branding, all from one place.
+        From everyday technology problems to professional business systems,
+        ADFIXIT22 provides practical solutions built around your needs.
       </p>
 
+
       <div class="services-grid">
-        <!-- Tech Repair & Installs -->
+
+
         <article class="service-card">
-          <h3>Device Repair & Tech Help</h3>
+
+          <div class="service-icon">💻</div>
+
+          <h3>Computer Repair & Tech Help</h3>
+
           <p>
-            Mobile, tablet, and computer support to keep your tech running smooth at home or in the office.
+            Troubleshooting and support for computers,
+            phones, tablets and everyday technology.
           </p>
+
           <ul>
-            <li>Phone & tablet troubleshooting</li>
-            <li>Computer cleanup & tune-ups</li>
-            <li>WiFi & home network setup</li>
-            <li>Smart TV & streaming installs</li>
-            <li>Printer & office tech setup</li>
+            <li>Slow computer cleanup</li>
+            <li>Hardware troubleshooting</li>
+            <li>Software installation</li>
+            <li>Virus & malware cleanup</li>
+            <li>Device setup</li>
           </ul>
-          <span class="service-tag">On-site / Local</span>
+
+          <span class="service-tag">
+            Starting at $75
+          </span>
+
         </article>
 
-        <!-- Installs -->
+
         <article class="service-card">
-          <h3>Home & Office Installs</h3>
+
+          <div class="service-icon">🎓</div>
+
+          <h3>Technology Training</h3>
+
           <p>
-            Clean, professional setups that look good and just work — no dangling wires, no confusion.
+            Personalized training that helps you use
+            technology confidently at your own pace.
           </p>
+
           <ul>
-            <li>TV wall mounting</li>
-            <li>Sound bar & speaker setup</li>
-            <li>Cable management & clean-up</li>
-            <li>Office workstation builds</li>
-            <li>Smart home device setup</li>
+            <li>Windows & Mac basics</li>
+            <li>Email & internet</li>
+            <li>Microsoft Office</li>
+            <li>Smartphones & tablets</li>
+            <li>AI & ChatGPT basics</li>
           </ul>
-          <span class="service-tag">Hands-on Service</span>
+
+          <span class="service-tag">
+            $75 / Hour
+          </span>
+
         </article>
 
-        <!-- Digital Agency -->
+
         <article class="service-card">
-          <h3>AI-Powered Digital & Design</h3>
+
+          <div class="service-icon">🏠</div>
+
+          <h3>Home & Office Technology</h3>
+
           <p>
-            Modern branding and content for small businesses that need to look professional without huge agency costs.
+            Professional setup and troubleshooting
+            for home and office technology.
           </p>
+
           <ul>
-            <li>Logo & branding kits</li>
-            <li>Simple business websites</li>
-            <li>Social media post packs</li>
-            <li>Flyers, menus & business cards</li>
-            <li>Basic automations & email flows</li>
+            <li>Wi-Fi setup</li>
+            <li>Printers</li>
+            <li>Smart TVs</li>
+            <li>Streaming devices</li>
+            <li>Workstations</li>
           </ul>
-          <span class="service-tag">Digital Services</span>
+
+          <span class="service-tag">
+            On-Site Available
+          </span>
+
         </article>
+
+
+        <article class="service-card">
+
+          <div class="service-icon">🌐</div>
+
+          <h3>Web Design & Digital Services</h3>
+
+          <p>
+            Professional digital solutions for businesses
+            that want a stronger online presence.
+          </p>
+
+          <ul>
+            <li>Business websites</li>
+            <li>Landing pages</li>
+            <li>Logos & branding</li>
+            <li>Flyers & digital graphics</li>
+            <li>Social content</li>
+          </ul>
+
+          <span class="service-tag">
+            Custom Quotes
+          </span>
+
+        </article>
+
+
+        <article class="service-card">
+
+          <div class="service-icon">🔐</div>
+
+          <h3>Cybersecurity</h3>
+
+          <p>
+            Improve the security of your devices,
+            accounts and business technology.
+          </p>
+
+          <ul>
+            <li>Security reviews</li>
+            <li>Account protection</li>
+            <li>Password security</li>
+            <li>Device security</li>
+            <li>Network security guidance</li>
+          </ul>
+
+          <span class="service-tag">
+            Consultations Available
+          </span>
+
+        </article>
+
+
+        <article class="service-card">
+
+          <div class="service-icon">🏢</div>
+
+          <h3>Business IT Support</h3>
+
+          <p>
+            Professional technology support for small
+            businesses without the cost of a full IT department.
+          </p>
+
+          <ul>
+            <li>Remote IT support</li>
+            <li>Microsoft 365</li>
+            <li>Salesforce support</li>
+            <li>User setup</li>
+            <li>Technology consulting</li>
+          </ul>
+
+          <span class="service-tag">
+            Monthly Plans Available
+          </span>
+
+        </article>
+
+
       </div>
+
     </div>
+
   </section>
+
+
+  <!-- TRAINING -->
+  <section id="training" class="section section-alt">
+
+    <div class="container">
+
+      <div class="training-heading">
+
+        <div>
+
+          <p class="eyebrow">ADFIXIT Training</p>
+
+          <h2 class="section-title">
+            Learn Technology With Confidence
+          </h2>
+
+          <p class="section-subtitle">
+            Technology shouldn't feel frustrating or overwhelming.
+            Our one-on-one sessions focus on what you actually
+            want to learn.
+          </p>
+
+        </div>
+
+
+        <div class="training-highlight">
+
+          <h3>Perfect For</h3>
+
+          <ul>
+            <li>Beginners</li>
+            <li>Seniors</li>
+            <li>Small business owners</li>
+            <li>Students</li>
+            <li>Remote workers</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+
+      <div class="training-topics">
+
+        <div>💻 <span>Computer Basics</span></div>
+
+        <div>📧 <span>Email & Internet</span></div>
+
+        <div>📱 <span>Phones & Tablets</span></div>
+
+        <div>📄 <span>Microsoft Office</span></div>
+
+        <div>☁️ <span>Cloud Storage</span></div>
+
+        <div>🔐 <span>Online Security</span></div>
+
+        <div>🖨️ <span>Printers & Devices</span></div>
+
+        <div>🤖 <span>AI & ChatGPT</span></div>
+
+      </div>
+
+
+      <h3 class="pricing-heading">
+        Training Packages
+      </h3>
+
+
+      <div class="pricing-grid">
+
+
+        <article class="price-card">
+
+          <h4>1 Hour</h4>
+
+          <strong>$75</strong>
+
+          <p>
+            Personalized one-on-one training.
+          </p>
+
+          <a href="tel:13236308565" class="btn ghost">
+            Book Session
+          </a>
+
+        </article>
+
+
+        <article class="price-card">
+
+          <h4>3 Hours</h4>
+
+          <strong>$200</strong>
+
+          <span class="save">
+            Save $25
+          </span>
+
+          <p>
+            Great for learning several topics.
+          </p>
+
+          <a href="tel:13236308565" class="btn ghost">
+            Book Package
+          </a>
+
+        </article>
+
+
+        <article class="price-card featured">
+
+          <span class="popular">
+            MOST POPULAR
+          </span>
+
+          <h4>5 Hours</h4>
+
+          <strong>$325</strong>
+
+          <span class="save">
+            Save $50
+          </span>
+
+          <p>
+            Build lasting technology confidence.
+          </p>
+
+          <a href="tel:13236308565" class="btn primary">
+            Book Package
+          </a>
+
+        </article>
+
+
+        <article class="price-card">
+
+          <h4>10 Hours</h4>
+
+          <strong>$600</strong>
+
+          <span class="save">
+            Save $150
+          </span>
+
+          <p>
+            Complete personalized training plan.
+          </p>
+
+          <a href="tel:13236308565" class="btn ghost">
+            Book Package
+          </a>
+
+        </article>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- BUSINESS IT -->
+  <section id="business" class="section">
+
+    <div class="container">
+
+      <div class="business-grid">
+
+
+        <div>
+
+          <p class="eyebrow">
+            Business Technology
+          </p>
+
+          <h2 class="section-title">
+            IT Support Built for Small Business
+          </h2>
+
+          <p class="section-subtitle">
+            Get reliable technology support without hiring
+            a full internal IT department.
+          </p>
+
+          <div class="business-services">
+
+            <span>✓ Remote Support</span>
+
+            <span>✓ Microsoft 365</span>
+
+            <span>✓ Salesforce</span>
+
+            <span>✓ Cybersecurity</span>
+
+            <span>✓ Website Support</span>
+
+            <span>✓ Employee Training</span>
+
+            <span>✓ Network Support</span>
+
+            <span>✓ Technology Consulting</span>
+
+          </div>
+
+        </div>
+
+
+        <div class="business-card">
+
+          <h3>
+            Need ongoing support?
+          </h3>
+
+          <p>
+            ADFIXIT22 offers flexible technology support
+            options for small businesses and organizations.
+          </p>
+
+          <a
+            href="mailto:support@adfixit22.com?subject=Business IT Consultation"
+            class="btn primary"
+          >
+            Request Consultation
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
 
   <!-- ABOUT -->
   <section id="about" class="section section-alt">
+
     <div class="container about-grid">
+
       <div>
-        <h2 class="section-title">About ADFIXIT22 LLC</h2>
-        <p>
-          ADFIXIT22 LLC was built on a simple idea: most people just want their tech
-          and their business tools to work — without the headache.
+
+        <p class="eyebrow">
+          About ADFIXIT22
         </p>
+
+        <h2 class="section-title">
+          Technology Without the Confusion
+        </h2>
+
         <p>
-          From fixing the phone your kid just dropped, to getting your small business
-          a clean, professional online presence, ADFIXIT22 is your one-stop shop.
+          ADFIXIT22 LLC was built around a simple idea:
+          technology should make life easier — not more complicated.
         </p>
+
         <p>
-          You’ll get honest recommendations, fair pricing, and work done like it was
-          for family — because that’s how every job should feel.
+          We help individuals and businesses solve technology problems,
+          learn new digital skills and improve the systems they depend on.
         </p>
+
+        <p>
+          Whether we're repairing a computer, teaching someone how
+          to confidently use technology or helping a business improve
+          its systems, our goal is simple: provide honest,
+          understandable and dependable support.
+        </p>
+
       </div>
+
+
       <div class="about-highlight">
-        <h3>Why People Choose ADFIXIT22</h3>
+
+        <h3>
+          Why Choose ADFIXIT22?
+        </h3>
+
         <ul>
-          <li>Local, flexible, and easy to reach</li>
-          <li>Clear communication & no surprise fees</li>
-          <li>Tech help + creative services in one place</li>
-          <li>Fast turnaround with AI-powered tools</li>
+          <li>Personalized support</li>
+          <li>Clear communication</li>
+          <li>No confusing tech jargon</li>
+          <li>Home & business solutions</li>
+          <li>Flexible remote and on-site service</li>
+          <li>Technology training available</li>
         </ul>
+
       </div>
+
     </div>
+
   </section>
 
-  <!-- PORTFOLIO / EXAMPLES -->
-  <section id="portfolio" class="section">
-    <div class="container">
-      <h2 class="section-title">Sample Work & Projects</h2>
-      <p class="section-subtitle">
-        A mix of tech setups and digital projects. These are example styles you can ask for.
-      </p>
-
-      <div class="portfolio-grid">
-        <article class="portfolio-card">
-          <h3>Clean TV & Sound Setup</h3>
-          <p>
-            Wall-mounted TV with hidden cables, sound bar install, and streaming apps configured for a Phoenix family.
-          </p>
-          <span class="pill">Home Install</span>
-        </article>
-
-        <article class="portfolio-card">
-          <h3>Barber Shop Logo & Social Pack</h3>
-          <p>
-            Bold logo, IG profile design, and 30 days of posts for a neighborhood barber wanting a stronger brand.
-          </p>
-          <span class="pill">Digital Branding</span>
-        </article>
-
-        <article class="portfolio-card">
-          <h3>Home WiFi + Office Corner</h3>
-          <p>
-            Router relocation, mesh WiFi setup, and a clean small office build-out for work-from-home setup.
-          </p>
-          <span class="pill">Network & Setup</span>
-        </article>
-
-        <article class="portfolio-card">
-          <h3>Small Business One-Page Site</h3>
-          <p>
-            Simple, mobile-friendly landing page with services, pricing, and contact form for a local service business.
-          </p>
-          <span class="pill">Web Design</span>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS (FAKE/STARTER COPY YOU CAN REPLACE LATER) -->
-  <section class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">What People Say</h2>
-      <div class="testimonials-grid">
-        <article class="testimonial-card">
-          <p>
-            “Showed up on time, mounted our TV, set up the apps, and even cleaned up the cables.
-            Super respectful and quick!”
-          </p>
-          <span class="testimonial-name">– Home Client, Phoenix</span>
-        </article>
-
-        <article class="testimonial-card">
-          <p>
-            “Got a logo and social content for my small business in just a couple of days.
-            Looked way more professional than I expected.”
-          </p>
-          <span class="testimonial-name">– Small Business Owner</span>
-        </article>
-      </div>
-    </div>
-  </section>
 
   <!-- CONTACT -->
   <section id="contact" class="section">
-    <div class="container contact-grid">
-      <div>
-        <h2 class="section-title">Let’s Fix It or Build It</h2>
-        <p class="section-subtitle">
-          Send a quick message with what you need: repair, install, or digital project.
+
+    <div class="container contact-card">
+
+      <p class="eyebrow">
+        Ready To Get Started?
+      </p>
+
+      <h2 class="section-title">
+        Let's Fix Your Tech
+      </h2>
+
+      <p class="section-subtitle">
+        Need computer help, training, business IT support,
+        or another technology solution? Contact ADFIXIT22 today.
+      </p>
+
+
+      <div class="contact-actions">
+
+        <a href="tel:13236308565" class="btn primary">
+          📞 (323) 630-8565
+        </a>
+
+        <a
+          href="mailto:support@adfixit22.com"
+          class="btn ghost"
+        >
+          ✉ Email Us
+        </a>
+
+      </div>
+
+
+      <div class="contact-info">
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:support@adfixit22.com">
+            support@adfixit22.com
+          </a>
         </p>
 
-        <div class="contact-info">
-          <p><strong>📞 Call / Text:</strong> <a href="tel:13236308565">323-630-8565</a></p>
-          <p><strong>📧 Email:</strong> <a href="mailto:dentona2@hotmail.com">dentona2@hotmail.com</a></p>
-          <p><strong>📍 Location:</strong> Phoenix, AZ</p>
-          <p><strong>📸 Instagram:</strong> <a href="https://instagram.com/adfixit22" target="_blank" rel="noopener">@adfixit22</a></p>
-        </div>
+        <p>
+          <strong>Instagram:</strong>
+          <a
+            href="https://instagram.com/adfixit22"
+            target="_blank"
+            rel="noopener"
+          >
+            @adfixit22
+          </a>
+        </p>
+
       </div>
 
     </div>
+
   </section>
+
 
   <!-- FOOTER -->
   <footer class="site-footer">
+
     <div class="container footer-inner">
-      <p>© <span id="year"></span> ADFIXIT22 LLC · Phoenix, AZ · All rights reserved.</p>
-      <p class="footer-links">
-        <a href="tel:13236308565">Call</a> ·
-        <a href="mailto:dentona2@hotmail.com">Email</a> ·
-        <a href="https://instagram.com/adfixit22" target="_blank" rel="noopener">Instagram</a>
+
+      <div class="footer-logo">
+        <img
+          src="logo.png"
+          alt="ADFIXIT22 LLC"
+          class="footer-logo-image"
+        />
+      </div>
+
+      <p>
+        © <span id="year"></span>
+        ADFIXIT22 LLC · All rights reserved.
       </p>
+
+      <p class="footer-links">
+
+        <a href="tel:13236308565">
+          Call
+        </a>
+
+        ·
+
+        <a href="mailto:support@adfixit22.com">
+          Email
+        </a>
+
+        ·
+
+        <a
+          href="https://instagram.com/adfixit22"
+          target="_blank"
+          rel="noopener"
+        >
+          Instagram
+        </a>
+
+      </p>
+
     </div>
+
   </footer>
 
+
+  <!-- FLOATING PHONE BUTTON -->
+  <a
+    href="tel:13236308565"
+    class="floating-call"
+    aria-label="Call ADFIXIT22"
+  >
+    ☎
+  </a>
+
+
   <script>
-    // Set current year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+
+    const menuToggle =
+      document.getElementById("menuToggle");
+
+    const mainNav =
+      document.getElementById("mainNav");
+
+
+    menuToggle.addEventListener("click", () => {
+
+      mainNav.classList.toggle("open");
+
+    });
+
+
+    document
+      .querySelectorAll("#mainNav a")
+      .forEach(link => {
+
+        link.addEventListener("click", () => {
+
+          mainNav.classList.remove("open");
+
+        });
+
+      });
+
   </script>
+
 </body>
 </html>
