@@ -33,9 +33,7 @@
 }
 
 
-/* =========================================================
-   RESET
-========================================================= */
+/* RESET */
 
 *,
 *::before,
@@ -76,9 +74,7 @@ img {
 }
 
 
-/* =========================================================
-   GENERAL LAYOUT
-========================================================= */
+/* GENERAL LAYOUT */
 
 .container {
   width: 100%;
@@ -132,9 +128,7 @@ img {
 }
 
 
-/* =========================================================
-   HEADER
-========================================================= */
+/* HEADER */
 
 .site-header {
   position: sticky;
@@ -160,9 +154,7 @@ img {
 }
 
 
-/* =========================================================
-   LOGO
-========================================================= */
+/* LOGO */
 
 .logo {
   display: flex;
@@ -191,9 +183,7 @@ img {
 }
 
 
-/* =========================================================
-   NAVIGATION
-========================================================= */
+/* NAVIGATION */
 
 .nav {
   display: flex;
@@ -203,10 +193,8 @@ img {
 
 .nav a {
   position: relative;
-
   color: #dedede;
   text-decoration: none;
-
   font-size: 0.88rem;
   font-weight: 500;
 
@@ -262,9 +250,7 @@ img {
 }
 
 
-/* =========================================================
-   MOBILE MENU BUTTON
-========================================================= */
+/* MOBILE MENU BUTTON */
 
 .menu-toggle {
   display: none;
@@ -286,9 +272,7 @@ img {
 }
 
 
-/* =========================================================
-   HERO
-========================================================= */
+/* HERO */
 
 .hero {
   position: relative;
@@ -385,9 +369,7 @@ img {
 }
 
 
-/* =========================================================
-   HERO ACTIONS
-========================================================= */
+/* HERO ACTIONS */
 
 .hero-actions {
   display: flex;
@@ -420,9 +402,7 @@ img {
 }
 
 
-/* =========================================================
-   HERO CARD
-========================================================= */
+/* HERO CARD */
 
 .hero-card {
   position: relative;
@@ -533,9 +513,7 @@ img {
 }
 
 
-/* =========================================================
-   BUTTONS
-========================================================= */
+/* BUTTONS */
 
 .btn {
   display: inline-flex;
@@ -604,9 +582,7 @@ img {
 }
 
 
-/* =========================================================
-   QUICK VALUE BAR
-========================================================= */
+/* QUICK VALUE BAR */
 
 .quick-value {
   border-top: 1px solid var(--border);
@@ -654,9 +630,7 @@ img {
 }
 
 
-/* =========================================================
-   SERVICES
-========================================================= */
+/* SERVICES */
 
 .services-grid {
   display: grid;
@@ -808,9 +782,7 @@ img {
 }
 
 
-/* =========================================================
-   TRAINING
-========================================================= */
+/* TRAINING */
 
 .training-heading {
   display: grid;
@@ -869,7 +841,7 @@ img {
 
   gap: 0.8rem;
 
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .training-topics > div {
@@ -914,143 +886,60 @@ img {
   font-weight: 600;
 }
 
-.pricing-heading {
-  font-family: 'Orbitron', sans-serif;
+.training-cta {
+  max-width: 860px;
 
-  font-size: 1.55rem;
+  margin: 0 auto;
 
-  margin-bottom: 2.2rem;
-}
+  padding: 2.6rem 2rem;
 
+  text-align: center;
 
-/* =========================================================
-   TRAINING PRICING
-========================================================= */
+  border-radius: 20px;
 
-.pricing-grid {
-  display: grid;
-
-  grid-template-columns: repeat(4, 1fr);
-
-  gap: 1.1rem;
-}
-
-.price-card {
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-
-  min-height: 320px;
-
-  padding: 1.8rem 1.45rem;
-
-  border-radius: 16px;
-
-  border: 1px solid var(--border);
-
-  background: var(--panel);
-
-  box-shadow:
-    0 14px 32px rgba(0, 0, 0, 0.23);
-}
-
-.price-card.featured {
-  border-color: var(--red);
-
-  box-shadow:
-    var(--red-glow),
-    var(--shadow);
-
-  transform: translateY(-8px);
-}
-
-.price-card h4 {
-  font-family: 'Orbitron', sans-serif;
-
-  font-size: 1.05rem;
-
-  margin-bottom: 1rem;
-}
-
-.price-card strong {
-  display: block;
-
-  font-family: 'Orbitron', sans-serif;
-
-  font-size: 2.3rem;
-
-  line-height: 1;
-
-  margin-bottom: 0.8rem;
-}
-
-.price-card p {
-  color: var(--gray);
-
-  font-size: 0.82rem;
-
-  margin: 1rem 0 1.4rem;
-}
-
-.price-card .btn {
-  margin-top: auto;
-}
-
-.save {
-  display: inline-flex;
-
-  align-self: flex-start;
-
-  padding: 0.25rem 0.6rem;
-
-  border-radius: 100px;
-
-  border: 1px solid rgba(229, 57, 53, 0.25);
-
-  background: rgba(229, 57, 53, 0.08);
-
-  color: var(--red-bright);
-
-  font-size: 0.68rem;
-
-  font-weight: 700;
-}
-
-.popular {
-  position: absolute;
-
-  top: -12px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  padding: 0.3rem 0.75rem;
-
-  border-radius: 100px;
+  border: 1px solid var(--border-red);
 
   background:
-    linear-gradient(
-      135deg,
-      var(--red),
-      var(--red-dark)
-    );
+    radial-gradient(
+      circle at center,
+      rgba(229, 57, 53, 0.11),
+      transparent 62%
+    ),
+    var(--panel);
 
-  color: white;
+  box-shadow: var(--red-glow);
+}
 
-  font-size: 0.61rem;
+.training-cta h3 {
+  font-family: 'Orbitron', sans-serif;
 
-  font-weight: 700;
+  font-size: 1.5rem;
 
-  letter-spacing: 0.07em;
+  margin-bottom: 0.9rem;
+}
 
-  white-space: nowrap;
+.training-cta p:not(.eyebrow) {
+  color: var(--silver);
+
+  max-width: 650px;
+
+  margin: 0 auto 1.6rem;
+
+  font-size: 0.92rem;
+}
+
+.training-actions {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 0.8rem;
 }
 
 
-/* =========================================================
-   BUSINESS IT
-========================================================= */
+/* BUSINESS IT */
 
 .business-grid {
   display: grid;
@@ -1084,10 +973,6 @@ img {
   color: #c5c6c8;
 
   font-size: 0.8rem;
-}
-
-.business-services span::first-letter {
-  color: var(--red-bright);
 }
 
 .business-card {
@@ -1125,9 +1010,7 @@ img {
 }
 
 
-/* =========================================================
-   ABOUT
-========================================================= */
+/* ABOUT */
 
 .about-grid {
   display: grid;
@@ -1188,9 +1071,7 @@ img {
 }
 
 
-/* =========================================================
-   CONTACT
-========================================================= */
+/* CONTACT */
 
 .contact-card {
   text-align: center;
@@ -1258,9 +1139,7 @@ img {
 }
 
 
-/* =========================================================
-   FOOTER
-========================================================= */
+/* FOOTER */
 
 .site-footer {
   padding: 2.5rem 0;
@@ -1310,9 +1189,7 @@ img {
 }
 
 
-/* =========================================================
-   FLOATING CALL BUTTON
-========================================================= */
+/* FLOATING CALL BUTTON */
 
 .floating-call {
   position: fixed;
@@ -1361,9 +1238,7 @@ img {
 }
 
 
-/* =========================================================
-   RESPONSIVE - TABLET
-========================================================= */
+/* TABLET */
 
 @media (max-width: 980px) {
 
@@ -1371,11 +1246,9 @@ img {
     display: block;
   }
 
-
   .header-inner {
     position: relative;
   }
-
 
   .nav {
     position: absolute;
@@ -1402,28 +1275,22 @@ img {
       0 20px 30px rgba(0, 0, 0, 0.45);
   }
 
-
   .nav.open {
     display: flex;
   }
-
 
   .nav a {
     padding: 0.85rem 0.3rem;
   }
 
-
   .nav a:not(.nav-cta)::after {
     display: none;
   }
 
-
   .nav-cta {
     margin-top: 0.5rem;
-
     text-align: center;
   }
-
 
   .hero-inner,
   .training-heading,
@@ -1432,48 +1299,30 @@ img {
     grid-template-columns: 1fr;
   }
 
-
   .hero-inner {
     gap: 3rem;
   }
 
-
   .hero {
     min-height: auto;
-
     padding: 4.5rem 0;
   }
-
 
   .hero-card {
     max-width: 680px;
   }
 
-
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
 
   .training-topics {
     grid-template-columns: repeat(2, 1fr);
   }
 
-
-  .pricing-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-
-  .price-card.featured {
-    transform: none;
-  }
-
-
   .business-grid {
     gap: 2.5rem;
   }
-
 
   .training-heading {
     gap: 2rem;
@@ -1481,9 +1330,7 @@ img {
 }
 
 
-/* =========================================================
-   RESPONSIVE - MOBILE
-========================================================= */
+/* MOBILE */
 
 @media (max-width: 640px) {
 
@@ -1491,113 +1338,89 @@ img {
     padding: 0 1rem;
   }
 
-
   .section {
     padding: 4.3rem 0;
   }
-
 
   .header-inner {
     min-height: 72px;
   }
 
-
   .logo-image {
     height: 51px;
   }
-
 
   .nav {
     top: 72px;
   }
 
-
   .hero {
     padding: 4rem 0;
   }
-
 
   .hero-text h1 {
     font-size: 2.75rem;
   }
 
-
   .hero-text > p:not(.eyebrow) {
     font-size: 0.93rem;
   }
 
-
-  .hero-actions {
+  .hero-actions,
+  .training-actions {
     flex-direction: column;
   }
 
-
-  .hero-actions .btn {
+  .hero-actions .btn,
+  .training-actions .btn {
     width: 100%;
   }
-
 
   .hero-card {
     padding: 1.6rem;
   }
 
-
   .quick-value-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
 
   .quick-value-grid > div {
     border-bottom: 1px solid var(--border);
   }
 
-
   .quick-value-grid > div:nth-child(2) {
     border-right: none;
   }
-
 
   .services-grid {
     grid-template-columns: 1fr;
   }
 
-
   .training-topics {
     grid-template-columns: repeat(2, 1fr);
   }
-
-
-  .pricing-grid {
-    grid-template-columns: 1fr;
-  }
-
 
   .business-services {
     grid-template-columns: 1fr;
   }
 
-
+  .training-cta,
   .contact-card {
     padding: 3rem 1.2rem;
   }
-
 
   .contact-actions {
     flex-direction: column;
   }
 
-
   .contact-actions .btn {
     width: 100%;
   }
 
-
   .contact-info {
     flex-direction: column;
-
     gap: 0.5rem;
   }
-
 
   .floating-call {
     width: 52px;
@@ -1606,12 +1429,11 @@ img {
     right: 16px;
     bottom: 16px;
   }
+
 }
 
 
-/* =========================================================
-   VERY SMALL PHONES
-========================================================= */
+/* VERY SMALL PHONES */
 
 @media (max-width: 420px) {
 
@@ -1619,21 +1441,17 @@ img {
     font-size: 2.35rem;
   }
 
-
   .training-topics {
     grid-template-columns: 1fr;
   }
-
 
   .quick-value-grid {
     grid-template-columns: 1fr;
   }
 
-
   .quick-value-grid > div {
     border-right: none;
   }
-
 
   .section-title {
     font-size: 1.75rem;
